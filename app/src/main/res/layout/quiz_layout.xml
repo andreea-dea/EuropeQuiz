@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/question_1"
+            layout="@layout/question_1_layout" />
+
+        <include
+            android:id="@+id/question_2"
+            layout="@layout/question_2_layout" />
+
+        <include
+            android:id="@+id/question_3"
+            layout="@layout/question_3_layout" />
+
+        <include
+            android:id="@+id/question_4"
+            layout="@layout/question_4_layout" />
+
+        <include
+            android:id="@+id/question_5"
+            layout="@layout/question_5_layout" />
+
+        <include
+            android:id="@+id/question_6"
+            layout="@layout/question_6_layout" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dimen_margin"
+            android:layout_marginRight="@dimen/dimen_margin"
+            android:onClick="checkAnswers"
+            android:text="@string/submit_answers" />
+    </LinearLayout>
+</ScrollView>

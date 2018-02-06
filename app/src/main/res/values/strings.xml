@@ -1,0 +1,48 @@
+<resources>
+    <!-- Application name-->
+    <string name="app_name">Europe Quiz</string>
+
+    <string name="start_quiz">Start Quiz</string>
+    <string name="map_of_europe">Map of Europe</string>
+
+    <!-- Question 1 -->
+    <string name="question_1">Which is the capital of Romania?</string>
+    <string name="answer_1_question_1">Athens</string>
+    <string name="answer_2_question_1">Paris</string>
+    <string name="answer_3_question_1">Bucharest</string>
+    <string name="answer_4_question_1">Lisbon</string>
+
+    <!-- Question 2 -->
+    <string name="question_2">The capital of Germany is _______ .</string>
+    <string name="answer_question_2">Berlin</string>
+
+    <!-- Question 3 -->
+    <string name="question_3">Which islands belong to Spain?</string>
+    <string name="answer_1_question_3">Azores</string>
+    <string name="answer_2_question_3">Canary Islands</string>
+    <string name="answer_3_question_3">Ibiza</string>
+    <string name="answer_4_question_3">Malta</string>
+
+    <!-- Question 4 -->
+    <string name="question_4">Which capitals are crossed by the Danube?</string>
+    <string name="answer_1_question_4">Vienna</string>
+    <string name="answer_2_question_4">Budapest</string>
+    <string name="answer_3_question_4">Belgrade</string>
+    <string name="answer_4_question_4">Bratislava</string>
+
+    <!-- Question 5 -->
+    <string name="question_5">Which country appears in the picture below?</string>
+
+    <!-- Submit button -->
+    <string name="submit_answers">Submit answers</string>
+    <string name="map_of_italy">Italy</string>
+    <string name="answer_question_5">Italy</string>
+
+    <!-- Misc -->
+    <string name="score">You have %1$d correct answers.</string>
+    <string name="question_6">In which country the form of guvernament is the constitutional monarchy?</string>
+    <string name="answer_1_question_6">Romania</string>
+    <string name="answer_2_question_6">Moldavia</string>
+    <string name="answer_3_question_6">Great Britain</string>
+    <string name="answer_4_question_6">Hungary</string>
+</resources>
